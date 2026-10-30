@@ -1,0 +1,16 @@
+{
+  // Cloudflare Worker that serves the built dashboard as static files (no server code).
+  // `wrangler deploy` runs the build below first, so the Cloudflare dashboard needs no
+  // build command or root directory: just the default deploy command `npx wrangler deploy`.
+  "$schema": "web/node_modules/wrangler/config-schema.json",
+  "name": "mailmen-dashboard",
+  "compatibility_date": "2026-10-01",
+  "build": {
+    "command": "npm ci --prefix web && npm run build --prefix web"
+  },
+  "assets": {
+    "directory": "./web/dist",
+    "not_found_handling": "single-page-application"
+  },
+  "observability": { "enabled": true }
+}

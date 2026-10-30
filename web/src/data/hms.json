@@ -1,0 +1,9472 @@
+{
+ "generated_at": "2026-10-16T13:54:53",
+ "reports": [
+  {
+   "fiscal_year": 2025,
+   "file": "hms_fy2025.pdf",
+   "values": 924
+  }
+ ],
+ "topics": {
+  "total_mail": {
+   "market": "All mail",
+   "label": "Total household mail",
+   "unit": "pieces",
+   "desc": "Pieces received and sent per household per year, all markets."
+  },
+  "correspondence": {
+   "market": "Correspondence",
+   "label": "Correspondence mail",
+   "unit": "pieces",
+   "desc": "Personal letters, cards, notices, insurance and tax correspondence, received and sent."
+  },
+  "corr_received_content": {
+   "market": "Correspondence",
+   "label": "Correspondence received, by content",
+   "unit": "pieces",
+   "desc": "Correspondence received per household, split by what the piece contained."
+  },
+  "corr_sent_content": {
+   "market": "Correspondence",
+   "label": "Correspondence sent, by content",
+   "unit": "pieces",
+   "desc": "Correspondence sent per household, split by what the piece contained."
+  },
+  "transactions": {
+   "market": "Transactions",
+   "label": "Transaction mail",
+   "unit": "pieces",
+   "desc": "Bills, statements, payments and donations, received and sent."
+  },
+  "trans_received_type": {
+   "market": "Transactions",
+   "label": "Transaction mail received, by type",
+   "unit": "pieces",
+   "desc": "Bills, statements and payments received per household."
+  },
+  "trans_sent_type": {
+   "market": "Transactions",
+   "label": "Transaction mail sent, by type",
+   "unit": "pieces",
+   "desc": "Payments and donations sent per household."
+  },
+  "bills_by_industry": {
+   "market": "Transactions",
+   "label": "Bills & statements by sender industry",
+   "unit": "pieces",
+   "desc": "Bills and statements received per household, by the industry that sent them."
+  },
+  "bills_received_mail_share": {
+   "market": "Transactions",
+   "label": "Share of bills & statements received by mail",
+   "unit": "percent",
+   "desc": "Percent of a household's bills and statements that arrive by mail rather than electronically."
+  },
+  "bills_paid_mail_share": {
+   "market": "Transactions",
+   "label": "Share of bills paid by mail",
+   "unit": "percent",
+   "desc": "Percent of a household's bills paid by mail."
+  },
+  "bill_payment_mix": {
+   "market": "Transactions",
+   "label": "Bill payment method mix",
+   "unit": "percent",
+   "desc": "Share of all household bills paid by each method."
+  },
+  "hh_receive_bills_mail": {
+   "market": "Transactions",
+   "label": "Households receiving any bill by mail",
+   "unit": "percent",
+   "desc": "Percent of households that received at least one bill or statement by mail in the last month."
+  },
+  "hh_receive_bills_electronic": {
+   "market": "Transactions",
+   "label": "Households receiving any bill electronically",
+   "unit": "percent",
+   "desc": "Percent of households that received at least one bill or statement electronically in the last month."
+  },
+  "hh_pay_mail": {
+   "market": "Transactions",
+   "label": "Households paying any bill by mail",
+   "unit": "percent",
+   "desc": "Percent of households that paid at least one bill by mail in the last month."
+  },
+  "hh_pay_electronic": {
+   "market": "Transactions",
+   "label": "Households paying any bill electronically",
+   "unit": "percent",
+   "desc": "Percent of households that paid at least one bill electronically in the last month."
+  },
+  "hh_pay_phone": {
+   "market": "Transactions",
+   "label": "Households paying any bill by phone or in person",
+   "unit": "percent",
+   "desc": "Percent of households that paid at least one bill by phone or in person in the last month."
+  },
+  "advertising": {
+   "market": "Advertising",
+   "label": "Advertising mail (First-Class + Marketing Mail)",
+   "unit": "pieces",
+   "desc": "First-Class and Marketing Mail advertising received per household."
+  },
+  "ad_by_class": {
+   "market": "Advertising",
+   "label": "Advertising mail by mail class",
+   "unit": "pieces",
+   "desc": "Advertising received per household, by postal mail class."
+  },
+  "ad_by_industry": {
+   "market": "Advertising",
+   "label": "Advertising mail by sender industry",
+   "unit": "pieces",
+   "desc": "First-Class and Marketing Mail advertising received per household, by sender industry."
+  },
+  "ad_fc_by_industry": {
+   "market": "Advertising",
+   "label": "First-Class advertising by sender industry",
+   "unit": "pieces",
+   "desc": "First-Class advertising (incl. secondary advertising) per household, by sender industry."
+  },
+  "ad_mm_by_industry": {
+   "market": "Advertising",
+   "label": "Marketing Mail advertising by sender industry",
+   "unit": "pieces",
+   "desc": "Marketing Mail advertising per household, by sender industry."
+  },
+  "ad_reading_rate": {
+   "market": "Advertising",
+   "label": "Advertising reading rate",
+   "unit": "percent",
+   "desc": "Percent of advertising pieces read by at least one household member."
+  },
+  "periodicals": {
+   "market": "Periodicals",
+   "label": "Periodicals received",
+   "unit": "pieces",
+   "desc": "Magazines, newspapers and other periodicals delivered by USPS, per household."
+  },
+  "periodicals_type": {
+   "market": "Periodicals",
+   "label": "Periodicals by type",
+   "unit": "pieces",
+   "desc": "Periodicals received per household, by type."
+  },
+  "periodicals_reach": {
+   "market": "Periodicals",
+   "label": "Households receiving any periodical",
+   "unit": "percent",
+   "desc": "Share of households that received any periodical during their survey week."
+  },
+  "periodicals_intensity": {
+   "market": "Periodicals",
+   "label": "Periodicals per receiving household",
+   "unit": "pieces",
+   "desc": "Annual periodicals per household, among households that receive any."
+  },
+  "packages_total": {
+   "market": "Packages",
+   "label": "Packages (received + sent)",
+   "unit": "pieces",
+   "desc": "USPS packages received and sent per household, double count removed."
+  },
+  "packages_received": {
+   "market": "Packages",
+   "label": "Packages received",
+   "unit": "pieces",
+   "desc": "USPS packages received per household."
+  },
+  "packages_sent": {
+   "market": "Packages",
+   "label": "Packages sent",
+   "unit": "pieces",
+   "desc": "USPS packages sent per household."
+  },
+  "usps_volume": {
+   "market": "Context",
+   "label": "Total USPS mail volume",
+   "unit": "billions",
+   "desc": "All mail delivered by USPS, billions of pieces."
+  },
+  "delivery_points": {
+   "market": "Context",
+   "label": "USPS delivery points",
+   "unit": "millions",
+   "desc": "Delivery points served by USPS, millions."
+  },
+  "households": {
+   "market": "Context",
+   "label": "U.S. households",
+   "unit": "millions",
+   "desc": "Number of U.S. households, millions (Census Bureau)."
+  },
+  "received_detail": {
+   "market": "All mail",
+   "label": "Mail received per household (detailed brackets)",
+   "unit": "pieces",
+   "desc": "All mail received per household in FY2025 with finer demographic brackets."
+  },
+  "sent_detail": {
+   "market": "All mail",
+   "label": "Mail sent per household (detailed brackets)",
+   "unit": "pieces",
+   "desc": "All mail sent per household in FY2025 with finer demographic brackets."
+  },
+  "ad_read_demo": {
+   "market": "Advertising",
+   "label": "Advertising reading rate by household",
+   "unit": "percent",
+   "desc": "Percent of ad pieces read, FY2025, by household demographics."
+  },
+  "ad_respond_demo": {
+   "market": "Advertising",
+   "label": "Ads 'very likely' to get a response",
+   "unit": "percent",
+   "desc": "Percent of ad pieces rated 8-10 on likelihood of response, FY2025."
+  },
+  "ad_response_by_type": {
+   "market": "Advertising",
+   "label": "Ads 'very likely' to get a response, by ad type",
+   "unit": "percent",
+   "desc": "Percent of ad pieces rated 8-10 on likelihood of response, FY2025."
+  },
+  "ad_relationship_read": {
+   "market": "Advertising",
+   "label": "Reading rate by past relationship",
+   "unit": "percent",
+   "desc": "Marketing Mail reading rate for existing customers vs. prospects, FY2025."
+  },
+  "ad_relationship_respond": {
+   "market": "Advertising",
+   "label": "Response likelihood by past relationship",
+   "unit": "percent",
+   "desc": "Marketing Mail pieces rated 8-10 on likelihood of response, existing customers vs. prospects, FY2025."
+  },
+  "reasons_bills_mail": {
+   "market": "Transactions",
+   "label": "Why households receive bills by mail",
+   "unit": "percent",
+   "desc": "Percent of households citing each reason, FY2025 (multiple answers allowed)."
+  },
+  "reasons_pay_mail": {
+   "market": "Transactions",
+   "label": "Why households pay bills by mail",
+   "unit": "percent",
+   "desc": "Percent of households that pay by mail citing each reason, FY2025 (multiple answers allowed)."
+  },
+  "reasons_usps_package": {
+   "market": "Packages",
+   "label": "Main reason for using USPS to send a package",
+   "unit": "percent",
+   "desc": "Percent of households, FY2025."
+  },
+  "pkg_sat_received": {
+   "market": "Packages",
+   "label": "Satisfaction with packages received (avg 1-10)",
+   "unit": "rating",
+   "desc": "Average satisfaction rating for USPS packages received, FY2025."
+  },
+  "pkg_sat_received_top": {
+   "market": "Packages",
+   "label": "Packages received rated 10/10",
+   "unit": "percent",
+   "desc": "Percent of received packages given the top satisfaction rating, FY2025."
+  },
+  "pkg_sat_sent": {
+   "market": "Packages",
+   "label": "Satisfaction with last package sent (avg 1-10)",
+   "unit": "rating",
+   "desc": "Average satisfaction rating for the last package sent with USPS, FY2025."
+  }
+ },
+ "series": [
+  {
+   "topic": "total_mail",
+   "dimension": "Market",
+   "segment": "Correspondence",
+   "points": [
+    {
+     "year": 2015,
+     "value": 142.4,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2020,
+     "value": 125.1,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2025,
+     "value": 98.6,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "topic": "total_mail",
+   "dimension": "Market",
+   "segment": "Transactions",
+   "points": [
+    {
+     "year": 2015,
+     "value": 189.5,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2020,
+     "value": 141.2,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2025,
+     "value": 93.7,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "topic": "total_mail",
+   "dimension": "Market",
+   "segment": "Advertising",
+   "points": [
+    {
+     "year": 2015,
+     "value": 658.9,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2020,
+     "value": 502.9,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2025,
+     "value": 393.0,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "topic": "total_mail",
+   "dimension": "Market",
+   "segment": "Periodicals",
+   "points": [
+    {
+     "year": 2015,
+     "value": 40.0,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2020,
+     "value": 29.6,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2025,
+     "value": 21.9,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "topic": "total_mail",
+   "dimension": "Market",
+   "segment": "Packages",
+   "points": [
+    {
+     "year": 2015,
+     "value": 32.1,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2020,
+     "value": 47.0,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2025,
+     "value": 41.5,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "topic": "total_mail",
+   "dimension": "Market",
+   "segment": "Other",
+   "points": [
+    {
+     "year": 2015,
+     "value": 14.0,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2020,
+     "value": 11.6,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2025,
+     "value": 5.9,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "topic": "total_mail",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 1040.6,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2020,
+     "value": 837.0,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    },
+    {
+     "year": 2025,
+     "value": 637.3,
+     "report": 2025,
+     "table": "E.2",
+     "page": 7
+    }
+   ]
+  },
+  {
+   "topic": "total_mail",
+   "dimension": "Mail flow",
+   "segment": "Non-Household to Household",
+   "points": [
+    {
+     "year": 2015,
+     "value": 958.2,
+     "report": 2025,
+     "table": "1.3",
+     "page": 13
+    },
+    {
+     "year": 2020,
+     "value": 780.1,
+     "report": 2025,
+     "table": "1.3",
+     "page": 13
+    },
+    {
+     "year": 2025,
+     "value": 600.5,
+     "report": 2025,
+     "table": "1.3",
+     "page": 13
+    }
+   ]
+  },
+  {
+   "topic": "total_mail",
+   "dimension": "Mail flow",
+   "segment": "Household to Non-Household",
+   "points": [
+    {
+     "year": 2015,
+     "value": 53.3,
+     "report": 2025,
+     "table": "1.3",
+     "page": 13
+    },
+    {
+     "year": 2020,
+     "value": 36.1,
+     "report": 2025,
+     "table": "1.3",
+     "page": 13
+    },
+    {
+     "year": 2025,
+     "value": 19.5,
+     "report": 2025,
+     "table": "1.3",
+     "page": 13
+    }
+   ]
+  },
+  {
+   "topic": "total_mail",
+   "dimension": "Mail flow",
+   "segment": "Household to Household",
+   "points": [
+    {
+     "year": 2015,
+     "value": 29.1,
+     "report": 2025,
+     "table": "1.3",
+     "page": 13
+    },
+    {
+     "year": 2020,
+     "value": 22.8,
+     "report": 2025,
+     "table": "1.3",
+     "page": 13
+    },
+    {
+     "year": 2025,
+     "value": 17.3,
+     "report": 2025,
+     "table": "1.3",
+     "page": 13
+    }
+   ]
+  },
+  {
+   "topic": "usps_volume",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 154.3,
+     "report": 2025,
+     "table": "2.1",
+     "page": 15
+    },
+    {
+     "year": 2020,
+     "value": 129.2,
+     "report": 2025,
+     "table": "2.1",
+     "page": 15
+    },
+    {
+     "year": 2025,
+     "value": 108.7,
+     "report": 2025,
+     "table": "2.1",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "topic": "delivery_points",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 155.0,
+     "report": 2025,
+     "table": "2.1",
+     "page": 15
+    },
+    {
+     "year": 2020,
+     "value": 161.4,
+     "report": 2025,
+     "table": "2.1",
+     "page": 15
+    },
+    {
+     "year": 2025,
+     "value": 170.4,
+     "report": 2025,
+     "table": "2.1",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "topic": "households",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 124.6,
+     "report": 2025,
+     "table": "2.1",
+     "page": 15
+    },
+    {
+     "year": 2020,
+     "value": 128.5,
+     "report": 2025,
+     "table": "2.1",
+     "page": 15
+    },
+    {
+     "year": 2025,
+     "value": 134.8,
+     "report": 2025,
+     "table": "2.1",
+     "page": 15
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Direction",
+   "segment": "Received",
+   "points": [
+    {
+     "year": 2015,
+     "value": 128.6,
+     "report": 2025,
+     "table": "3.1",
+     "page": 19
+    },
+    {
+     "year": 2020,
+     "value": 116.1,
+     "report": 2025,
+     "table": "3.1",
+     "page": 19
+    },
+    {
+     "year": 2025,
+     "value": 92.7,
+     "report": 2025,
+     "table": "3.1",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Direction",
+   "segment": "Sent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 39.7,
+     "report": 2025,
+     "table": "3.1",
+     "page": 19
+    },
+    {
+     "year": 2020,
+     "value": 28.5,
+     "report": 2025,
+     "table": "3.1",
+     "page": 19
+    },
+    {
+     "year": 2025,
+     "value": 21.8,
+     "report": 2025,
+     "table": "3.1",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 142.4,
+     "report": 2025,
+     "table": "3.1",
+     "page": 19
+    },
+    {
+     "year": 2020,
+     "value": 125.1,
+     "report": 2025,
+     "table": "3.1",
+     "page": 19
+    },
+    {
+     "year": 2025,
+     "value": 98.6,
+     "report": 2025,
+     "table": "3.1",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Mail flow",
+   "segment": "Household to household",
+   "points": [
+    {
+     "year": 2015,
+     "value": 25.1,
+     "report": 2025,
+     "table": "3.2",
+     "page": 19
+    },
+    {
+     "year": 2020,
+     "value": 21.9,
+     "report": 2025,
+     "table": "3.2",
+     "page": 19
+    },
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "3.2",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Mail flow",
+   "segment": "Non-household to household",
+   "points": [
+    {
+     "year": 2015,
+     "value": 103.5,
+     "report": 2025,
+     "table": "3.2",
+     "page": 19
+    },
+    {
+     "year": 2020,
+     "value": 94.2,
+     "report": 2025,
+     "table": "3.2",
+     "page": 19
+    },
+    {
+     "year": 2025,
+     "value": 78.7,
+     "report": 2025,
+     "table": "3.2",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Mail flow",
+   "segment": "Household to non-household",
+   "points": [
+    {
+     "year": 2015,
+     "value": 13.8,
+     "report": 2025,
+     "table": "3.2",
+     "page": 19
+    },
+    {
+     "year": 2020,
+     "value": 9.1,
+     "report": 2025,
+     "table": "3.2",
+     "page": 19
+    },
+    {
+     "year": 2025,
+     "value": 5.9,
+     "report": 2025,
+     "table": "3.2",
+     "page": 19
+    }
+   ]
+  },
+  {
+   "topic": "corr_received_content",
+   "dimension": "Content",
+   "segment": "Notice/announcement/invitation",
+   "points": [
+    {
+     "year": 2015,
+     "value": 48.1,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2020,
+     "value": 39.9,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2025,
+     "value": 29.6,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    }
+   ]
+  },
+  {
+   "topic": "corr_received_content",
+   "dimension": "Content",
+   "segment": "Personal letter or card",
+   "points": [
+    {
+     "year": 2015,
+     "value": 24.9,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2020,
+     "value": 22.5,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2025,
+     "value": 19.5,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    }
+   ]
+  },
+  {
+   "topic": "corr_received_content",
+   "dimension": "Content",
+   "segment": "Insurance Related (EOBs, etc.)",
+   "points": [
+    {
+     "year": 2015,
+     "value": 18.5,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2020,
+     "value": 17.6,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2025,
+     "value": 19.6,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    }
+   ]
+  },
+  {
+   "topic": "corr_received_content",
+   "dimension": "Content",
+   "segment": "Tax-related correspondence",
+   "points": [
+    {
+     "year": 2015,
+     "value": 9.0,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2020,
+     "value": 9.8,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2025,
+     "value": 6.4,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    }
+   ]
+  },
+  {
+   "topic": "corr_received_content",
+   "dimension": "Content",
+   "segment": "Other Correspondence",
+   "points": [
+    {
+     "year": 2015,
+     "value": 28.1,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2020,
+     "value": 26.2,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2025,
+     "value": 17.6,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    }
+   ]
+  },
+  {
+   "topic": "corr_received_content",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 128.6,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2020,
+     "value": 116.1,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    },
+    {
+     "year": 2025,
+     "value": 92.7,
+     "report": 2025,
+     "table": "3.3",
+     "page": 20
+    }
+   ]
+  },
+  {
+   "topic": "corr_sent_content",
+   "dimension": "Content",
+   "segment": "Personal letter or postcard",
+   "points": [
+    {
+     "year": 2015,
+     "value": 7.1,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2020,
+     "value": 5.3,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2025,
+     "value": 3.7,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    }
+   ]
+  },
+  {
+   "topic": "corr_sent_content",
+   "dimension": "Content",
+   "segment": "Greeting/holiday/birthday card",
+   "points": [
+    {
+     "year": 2015,
+     "value": 17.8,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2020,
+     "value": 14.2,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2025,
+     "value": 11.0,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    }
+   ]
+  },
+  {
+   "topic": "corr_sent_content",
+   "dimension": "Content",
+   "segment": "Invitation/Announcement",
+   "points": [
+    {
+     "year": 2015,
+     "value": 2.4,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2020,
+     "value": 0.7,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2025,
+     "value": 1.8,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    }
+   ]
+  },
+  {
+   "topic": "corr_sent_content",
+   "dimension": "Content",
+   "segment": "Forms or applications",
+   "points": [
+    {
+     "year": 2015,
+     "value": 3.1,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2020,
+     "value": 1.3,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2025,
+     "value": 1.8,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    }
+   ]
+  },
+  {
+   "topic": "corr_sent_content",
+   "dimension": "Content",
+   "segment": "Tax Related",
+   "points": [
+    {
+     "year": 2015,
+     "value": 1.5,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2020,
+     "value": 0.9,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2025,
+     "value": 0.8,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    }
+   ]
+  },
+  {
+   "topic": "corr_sent_content",
+   "dimension": "Content",
+   "segment": "Other Correspondence",
+   "points": [
+    {
+     "year": 2015,
+     "value": 7.8,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2020,
+     "value": 6.1,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2025,
+     "value": 2.6,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    }
+   ]
+  },
+  {
+   "topic": "corr_sent_content",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 39.7,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2020,
+     "value": 28.5,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    },
+    {
+     "year": 2025,
+     "value": 21.8,
+     "report": 2025,
+     "table": "A-2",
+     "page": 56
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 116.7,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 87.5,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 71.5,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 152.5,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 134.8,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 101.9,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 168.1,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 161.3,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 130.4,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2015,
+     "value": 110.4,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 97.0,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 90.8,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 150.7,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 129.3,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 97.0,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 183.6,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 140.6,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 97.1,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 213.8,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 171.9,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 115.7,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2015,
+     "value": 106.3,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 108.2,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 83.9,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 138.1,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 121.6,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 99.1,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 139.5,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 116.3,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 102.7,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 158.2,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 134.5,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 99.0,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2015,
+     "value": 170.1,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 145.6,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 111.7,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 95.3,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 81.6,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 72.7,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 150.9,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 125.2,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 94.0,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 136.7,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 123.5,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 101.7,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "correspondence",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 128.5,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2020,
+     "value": 130.6,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    },
+    {
+     "year": 2025,
+     "value": 102.5,
+     "report": 2025,
+     "table": "A-3",
+     "page": 57
+    }
+   ]
+  },
+  {
+   "topic": "trans_received_type",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 153.7,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    },
+    {
+     "year": 2020,
+     "value": 119.8,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    },
+    {
+     "year": 2025,
+     "value": 82.3,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    }
+   ]
+  },
+  {
+   "topic": "trans_received_type",
+   "dimension": "Type",
+   "segment": "Bills",
+   "points": [
+    {
+     "year": 2015,
+     "value": 111.5,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    },
+    {
+     "year": 2020,
+     "value": 82.4,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    },
+    {
+     "year": 2025,
+     "value": 57.1,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    }
+   ]
+  },
+  {
+   "topic": "trans_received_type",
+   "dimension": "Type",
+   "segment": "Statements",
+   "points": [
+    {
+     "year": 2015,
+     "value": 32.7,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    },
+    {
+     "year": 2020,
+     "value": 30.1,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    },
+    {
+     "year": 2025,
+     "value": 20.9,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    }
+   ]
+  },
+  {
+   "topic": "trans_received_type",
+   "dimension": "Type",
+   "segment": "Payments",
+   "points": [
+    {
+     "year": 2015,
+     "value": 9.5,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    },
+    {
+     "year": 2020,
+     "value": 7.3,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    },
+    {
+     "year": 2025,
+     "value": 4.3,
+     "report": 2025,
+     "table": "A-4",
+     "page": 58
+    }
+   ]
+  },
+  {
+   "topic": "trans_sent_type",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 36.4,
+     "report": 2025,
+     "table": "A-5",
+     "page": 58
+    },
+    {
+     "year": 2020,
+     "value": 21.6,
+     "report": 2025,
+     "table": "A-5",
+     "page": 58
+    },
+    {
+     "year": 2025,
+     "value": 11.6,
+     "report": 2025,
+     "table": "A-5",
+     "page": 58
+    }
+   ]
+  },
+  {
+   "topic": "trans_sent_type",
+   "dimension": "Type",
+   "segment": "Payments",
+   "points": [
+    {
+     "year": 2015,
+     "value": 34.3,
+     "report": 2025,
+     "table": "A-5",
+     "page": 58
+    },
+    {
+     "year": 2020,
+     "value": 19.3,
+     "report": 2025,
+     "table": "A-5",
+     "page": 58
+    },
+    {
+     "year": 2025,
+     "value": 10.2,
+     "report": 2025,
+     "table": "A-5",
+     "page": 58
+    }
+   ]
+  },
+  {
+   "topic": "trans_sent_type",
+   "dimension": "Type",
+   "segment": "Donations",
+   "points": [
+    {
+     "year": 2015,
+     "value": 2.1,
+     "report": 2025,
+     "table": "A-5",
+     "page": 58
+    },
+    {
+     "year": 2020,
+     "value": 2.4,
+     "report": 2025,
+     "table": "A-5",
+     "page": 58
+    },
+    {
+     "year": 2025,
+     "value": 1.4,
+     "report": 2025,
+     "table": "A-5",
+     "page": 58
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Direction",
+   "segment": "Received",
+   "points": [
+    {
+     "year": 2015,
+     "value": 153.7,
+     "report": 2025,
+     "table": "4.1",
+     "page": 24
+    },
+    {
+     "year": 2020,
+     "value": 119.8,
+     "report": 2025,
+     "table": "4.1",
+     "page": 24
+    },
+    {
+     "year": 2025,
+     "value": 82.3,
+     "report": 2025,
+     "table": "4.1",
+     "page": 24
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Direction",
+   "segment": "Sent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 36.4,
+     "report": 2025,
+     "table": "4.1",
+     "page": 24
+    },
+    {
+     "year": 2020,
+     "value": 21.6,
+     "report": 2025,
+     "table": "4.1",
+     "page": 24
+    },
+    {
+     "year": 2025,
+     "value": 11.6,
+     "report": 2025,
+     "table": "4.1",
+     "page": 24
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 189.5,
+     "report": 2025,
+     "table": "4.1",
+     "page": 24
+    },
+    {
+     "year": 2020,
+     "value": 141.2,
+     "report": 2025,
+     "table": "4.1",
+     "page": 24
+    },
+    {
+     "year": 2025,
+     "value": 93.7,
+     "report": 2025,
+     "table": "4.1",
+     "page": 24
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 137.8,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 79.7,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 51.8,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 217.5,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 163.7,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 104.9,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 227.6,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 191.5,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 133.4,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2015,
+     "value": 149.4,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 114.1,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 81.6,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 215.7,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 153.4,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 94.1,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 228.9,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 146.2,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 89.8,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 251.7,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 164.2,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 109.1,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2015,
+     "value": 200.8,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 149.8,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 87.6,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 193.9,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 153.5,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 95.1,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 182.2,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 139.7,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 99.3,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 187.3,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 132.9,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 90.4,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2015,
+     "value": 233.1,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 171.1,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 114.5,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 115.6,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 76.8,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 53.8,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 199.4,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 137.1,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 89.4,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 176.3,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 139.0,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 98.4,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "transactions",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 198.3,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2020,
+     "value": 165.2,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    },
+    {
+     "year": 2025,
+     "value": 101.8,
+     "report": 2025,
+     "table": "A-6",
+     "page": 59
+    }
+   ]
+  },
+  {
+   "topic": "bills_by_industry",
+   "dimension": "Industry",
+   "segment": "Financial",
+   "points": [
+    {
+     "year": 2015,
+     "value": 82.5,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2020,
+     "value": 67.8,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2025,
+     "value": 44.8,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    }
+   ]
+  },
+  {
+   "topic": "bills_by_industry",
+   "dimension": "Industry",
+   "segment": "Credit card",
+   "points": [
+    {
+     "year": 2015,
+     "value": 29.2,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2020,
+     "value": 24.1,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2025,
+     "value": 17.1,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    }
+   ]
+  },
+  {
+   "topic": "bills_by_industry",
+   "dimension": "Industry",
+   "segment": "Merchants",
+   "points": [
+    {
+     "year": 2015,
+     "value": 4.0,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2020,
+     "value": 1.6,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2025,
+     "value": 1.2,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    }
+   ]
+  },
+  {
+   "topic": "bills_by_industry",
+   "dimension": "Industry",
+   "segment": "Service",
+   "points": [
+    {
+     "year": 2015,
+     "value": 51.8,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2020,
+     "value": 39.2,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2025,
+     "value": 27.2,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    }
+   ]
+  },
+  {
+   "topic": "bills_by_industry",
+   "dimension": "Industry",
+   "segment": "Utility/Phone/Internet Provider",
+   "points": [
+    {
+     "year": 2015,
+     "value": 34.3,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2020,
+     "value": 26.0,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2025,
+     "value": 17.3,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    }
+   ]
+  },
+  {
+   "topic": "bills_by_industry",
+   "dimension": "Industry",
+   "segment": "Medical",
+   "points": [
+    {
+     "year": 2015,
+     "value": 13.8,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2020,
+     "value": 9.5,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2025,
+     "value": 8.1,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    }
+   ]
+  },
+  {
+   "topic": "bills_by_industry",
+   "dimension": "Industry",
+   "segment": "Government/Social/Nonprofit",
+   "points": [
+    {
+     "year": 2015,
+     "value": 5.1,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2020,
+     "value": 3.5,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2025,
+     "value": 3.2,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    }
+   ]
+  },
+  {
+   "topic": "bills_by_industry",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 144.2,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2020,
+     "value": 112.5,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    },
+    {
+     "year": 2025,
+     "value": 78.0,
+     "report": 2025,
+     "table": "4.3",
+     "page": 27
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Document type",
+   "segment": "Bills",
+   "points": [
+    {
+     "year": 2015,
+     "value": 78.0,
+     "report": 2025,
+     "table": "4.4",
+     "page": 28
+    },
+    {
+     "year": 2020,
+     "value": 64.0,
+     "report": 2025,
+     "table": "4.4",
+     "page": 28
+    },
+    {
+     "year": 2025,
+     "value": 56.0,
+     "report": 2025,
+     "table": "4.4",
+     "page": 28
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Document type",
+   "segment": "Statements",
+   "points": [
+    {
+     "year": 2015,
+     "value": 73.0,
+     "report": 2025,
+     "table": "4.4",
+     "page": 28
+    },
+    {
+     "year": 2020,
+     "value": 60.0,
+     "report": 2025,
+     "table": "4.4",
+     "page": 28
+    },
+    {
+     "year": 2025,
+     "value": 54.0,
+     "report": 2025,
+     "table": "4.4",
+     "page": 28
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 77.0,
+     "report": 2025,
+     "table": "4.4",
+     "page": 28
+    },
+    {
+     "year": 2020,
+     "value": 62.0,
+     "report": 2025,
+     "table": "4.4",
+     "page": 28
+    },
+    {
+     "year": 2025,
+     "value": 55.0,
+     "report": 2025,
+     "table": "4.4",
+     "page": 28
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 66.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 50.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 51.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 79.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 64.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 55.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 89.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 76.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 61.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2015,
+     "value": 84.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 69.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 64.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 72.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 63.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 55.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 68.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 54.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 50.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 68.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 52.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 46.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2015,
+     "value": 91.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 78.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 65.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 85.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 71.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 63.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 75.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 63.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 59.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 69.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 55.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 48.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2015,
+     "value": 78.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 65.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 56.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 73.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 56.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 53.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 74.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 60.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 53.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 77.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 63.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 57.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_received_mail_share",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 84.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2020,
+     "value": 71.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    },
+    {
+     "year": 2025,
+     "value": 60.0,
+     "report": 2025,
+     "table": "A-7",
+     "page": 60
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 31.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 21.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 17.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 10.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 6.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 32.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 21.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 13.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 52.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 34.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 22.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2015,
+     "value": 37.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 25.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 15.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 28.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 20.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 13.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 22.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 16.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 12.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 19.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 15.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 11.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2015,
+     "value": 46.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 30.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 17.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 40.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 25.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 15.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 29.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 21.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 23.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 17.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 12.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2015,
+     "value": 33.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 23.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 16.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 24.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 14.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 9.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 28.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 18.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 13.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 31.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 22.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bills_paid_mail_share",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 44.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2020,
+     "value": 30.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    },
+    {
+     "year": 2025,
+     "value": 16.0,
+     "report": 2025,
+     "table": "A-9",
+     "page": 62
+    }
+   ]
+  },
+  {
+   "topic": "bill_payment_mix",
+   "dimension": "Method",
+   "segment": "Mail",
+   "points": [
+    {
+     "year": 2015,
+     "value": 31.0,
+     "report": 2025,
+     "table": "4.6",
+     "page": 31
+    },
+    {
+     "year": 2020,
+     "value": 21.0,
+     "report": 2025,
+     "table": "4.6",
+     "page": 31
+    },
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "4.6",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "topic": "bill_payment_mix",
+   "dimension": "Method",
+   "segment": "Electronic",
+   "points": [
+    {
+     "year": 2015,
+     "value": 62.0,
+     "report": 2025,
+     "table": "4.6",
+     "page": 31
+    },
+    {
+     "year": 2020,
+     "value": 73.0,
+     "report": 2025,
+     "table": "4.6",
+     "page": 31
+    },
+    {
+     "year": 2025,
+     "value": 77.0,
+     "report": 2025,
+     "table": "4.6",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "topic": "bill_payment_mix",
+   "dimension": "Method",
+   "segment": "In-Person or Telephone",
+   "points": [
+    {
+     "year": 2015,
+     "value": 7.0,
+     "report": 2025,
+     "table": "4.6",
+     "page": 31
+    },
+    {
+     "year": 2020,
+     "value": 6.0,
+     "report": 2025,
+     "table": "4.6",
+     "page": 31
+    },
+    {
+     "year": 2025,
+     "value": 10.0,
+     "report": 2025,
+     "table": "4.6",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "topic": "hh_receive_bills_mail",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 97.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2020,
+     "value": 94.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2025,
+     "value": 94.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    }
+   ]
+  },
+  {
+   "topic": "hh_receive_bills_electronic",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 51.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2020,
+     "value": 68.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2025,
+     "value": 83.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    }
+   ]
+  },
+  {
+   "topic": "hh_receive_bills_mail",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 95.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2020,
+     "value": 90.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2025,
+     "value": 91.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    }
+   ]
+  },
+  {
+   "topic": "hh_receive_bills_electronic",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 68.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2020,
+     "value": 83.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2025,
+     "value": 86.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    }
+   ]
+  },
+  {
+   "topic": "hh_receive_bills_mail",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 98.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2020,
+     "value": 96.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2025,
+     "value": 96.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    }
+   ]
+  },
+  {
+   "topic": "hh_receive_bills_electronic",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 51.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2020,
+     "value": 69.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2025,
+     "value": 84.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    }
+   ]
+  },
+  {
+   "topic": "hh_receive_bills_mail",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 98.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2020,
+     "value": 97.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2025,
+     "value": 96.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    }
+   ]
+  },
+  {
+   "topic": "hh_receive_bills_electronic",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 25.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2020,
+     "value": 48.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    },
+    {
+     "year": 2025,
+     "value": 78.0,
+     "report": 2025,
+     "table": "A-8",
+     "page": 61
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_mail",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 69.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 55.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 44.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_electronic",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 77.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 89.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 96.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_phone",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 36.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 29.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 40.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_mail",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 54.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 36.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 23.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_electronic",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 89.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 96.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 98.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_phone",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 40.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 29.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 37.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_mail",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 72.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 61.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 48.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_electronic",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 77.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 89.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 97.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_phone",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 37.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 30.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 43.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_mail",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 86.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 74.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 65.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_electronic",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 60.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 78.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 95.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "hh_pay_phone",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 27.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2020,
+     "value": 27.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    },
+    {
+     "year": 2025,
+     "value": 39.0,
+     "report": 2025,
+     "table": "A-10",
+     "page": 63
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 643.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 487.7,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 378.0,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 477.3,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 311.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 232.7,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 685.9,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 510.2,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 406.1,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 841.0,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 685.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 529.1,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2015,
+     "value": 465.2,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 358.7,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 277.3,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 706.5,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 494.7,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 370.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 856.8,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 566.3,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 451.2,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 1075.7,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 692.3,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 527.0,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2015,
+     "value": 488.5,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 365.9,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 271.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 583.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 464.7,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 338.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 634.8,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 463.5,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 357.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 737.1,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 530.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 432.0,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2015,
+     "value": 802.3,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 586.4,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 465.1,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 373.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 280.3,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 212.9,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 739.4,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 513.8,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 401.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 572.3,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 474.0,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 369.1,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "advertising",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 514.2,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2020,
+     "value": 431.0,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    },
+    {
+     "year": 2025,
+     "value": 317.6,
+     "report": 2025,
+     "table": "A-11",
+     "page": 64
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_class",
+   "dimension": "Mail class",
+   "segment": "First-Class ad-only",
+   "points": [
+    {
+     "year": 2015,
+     "value": 34.0,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2020,
+     "value": 31.3,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2025,
+     "value": 25.1,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_class",
+   "dimension": "Mail class",
+   "segment": "First-Class ad-enclosed",
+   "points": [
+    {
+     "year": 2015,
+     "value": 36.2,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2020,
+     "value": 20.4,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2025,
+     "value": 17.2,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_class",
+   "dimension": "Mail class",
+   "segment": "Marketing Mail – commercial",
+   "points": [
+    {
+     "year": 2015,
+     "value": 472.7,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2020,
+     "value": 346.6,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2025,
+     "value": 264.0,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_class",
+   "dimension": "Mail class",
+   "segment": "Marketing Mail – nonprofit",
+   "points": [
+    {
+     "year": 2015,
+     "value": 100.7,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2020,
+     "value": 89.4,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2025,
+     "value": 71.7,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_class",
+   "dimension": "Mail class",
+   "segment": "Other",
+   "points": [
+    {
+     "year": 2015,
+     "value": 15.2,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2020,
+     "value": 15.2,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2025,
+     "value": 14.9,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_class",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 658.9,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2020,
+     "value": 502.9,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    },
+    {
+     "year": 2025,
+     "value": 393.0,
+     "report": 2025,
+     "table": "5.1",
+     "page": 33
+    }
+   ]
+  },
+  {
+   "topic": "ad_fc_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Financial",
+   "points": [
+    {
+     "year": 2015,
+     "value": 26.8,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 21.0,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 15.0,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_fc_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Merchants",
+   "points": [
+    {
+     "year": 2015,
+     "value": 12.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 8.5,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 8.1,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_fc_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Services",
+   "points": [
+    {
+     "year": 2015,
+     "value": 21.6,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 13.8,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 10.1,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_fc_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Social",
+   "points": [
+    {
+     "year": 2015,
+     "value": 6.6,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 5.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 5.4,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_fc_by_industry",
+   "dimension": "Sender industry",
+   "segment": "All other",
+   "points": [
+    {
+     "year": 2015,
+     "value": 2.5,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 2.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 3.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_fc_by_industry",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 70.2,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 51.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 42.3,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_mm_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Financial",
+   "points": [
+    {
+     "year": 2015,
+     "value": 126.9,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 100.4,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 86.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_mm_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Merchants",
+   "points": [
+    {
+     "year": 2015,
+     "value": 171.1,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 105.8,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 80.8,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_mm_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Services",
+   "points": [
+    {
+     "year": 2015,
+     "value": 100.1,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 74.4,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 55.3,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_mm_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Social",
+   "points": [
+    {
+     "year": 2015,
+     "value": 100.1,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 95.2,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 78.0,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_mm_by_industry",
+   "dimension": "Sender industry",
+   "segment": "All other",
+   "points": [
+    {
+     "year": 2015,
+     "value": 75.2,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 60.3,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 34.9,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_mm_by_industry",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 573.4,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 436.0,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 335.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Financial",
+   "points": [
+    {
+     "year": 2015,
+     "value": 153.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 121.3,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 101.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Merchants",
+   "points": [
+    {
+     "year": 2015,
+     "value": 183.8,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 114.2,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 88.9,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Services",
+   "points": [
+    {
+     "year": 2015,
+     "value": 121.6,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 88.2,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 65.4,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_industry",
+   "dimension": "Sender industry",
+   "segment": "Social",
+   "points": [
+    {
+     "year": 2015,
+     "value": 106.8,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 100.9,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 83.4,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_industry",
+   "dimension": "Sender industry",
+   "segment": "All other",
+   "points": [
+    {
+     "year": 2015,
+     "value": 77.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 63.0,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 38.6,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_by_industry",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 643.6,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2020,
+     "value": 487.7,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    },
+    {
+     "year": 2025,
+     "value": 378.0,
+     "report": 2025,
+     "table": "A-12",
+     "page": 65
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 47.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 46.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 51.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Ad type",
+   "segment": "FCM Ad only",
+   "points": [
+    {
+     "year": 2015,
+     "value": 56.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 50.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 53.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Ad type",
+   "segment": "FCM Ad enclosed",
+   "points": [
+    {
+     "year": 2015,
+     "value": 51.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 49.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 66.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Ad type",
+   "segment": "Commercial Marketing Mail",
+   "points": [
+    {
+     "year": 2015,
+     "value": 45.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 45.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 50.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Ad type",
+   "segment": "Non-profit Marketing Mail",
+   "points": [
+    {
+     "year": 2015,
+     "value": 49.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 50.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 50.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Sender industry",
+   "segment": "Financial",
+   "points": [
+    {
+     "year": 2015,
+     "value": 36.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 37.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 45.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Sender industry",
+   "segment": "Merchant",
+   "points": [
+    {
+     "year": 2015,
+     "value": 57.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 57.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 57.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Sender industry",
+   "segment": "Service",
+   "points": [
+    {
+     "year": 2015,
+     "value": 43.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 40.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 52.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Sender industry",
+   "segment": "Social",
+   "points": [
+    {
+     "year": 2015,
+     "value": 49.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 49.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 48.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Past relationship",
+   "segment": "Existing customer",
+   "points": [
+    {
+     "year": 2015,
+     "value": 59.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 62.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 64.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "ad_reading_rate",
+   "dimension": "Past relationship",
+   "segment": "Prospect",
+   "points": [
+    {
+     "year": 2015,
+     "value": 25.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2020,
+     "value": 26.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    },
+    {
+     "year": 2025,
+     "value": 36.0,
+     "report": 2025,
+     "table": "A-14",
+     "page": 67
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 40.0,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 29.6,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 21.9,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 26.4,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 12.3,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 12.7,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 41.1,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 29.2,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 18.5,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 60.1,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 52.5,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 37.8,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2015,
+     "value": 25.0,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 21.4,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 20.0,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 47.0,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 33.1,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 21.0,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 58.5,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 30.5,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 22.8,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 69.3,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 38.4,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 24.8,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2015,
+     "value": 29.0,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 15.1,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 20.4,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 35.3,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 30.8,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 20.0,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 35.3,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 26.1,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 21.6,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 49.9,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 32.6,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 23.1,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2015,
+     "value": 52.6,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 36.7,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 26.5,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 18.8,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 14.9,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 13.2,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 40.3,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 28.7,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 18.7,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 37.1,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 27.0,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 22.4,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 49.9,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2020,
+     "value": 43.0,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    },
+    {
+     "year": 2025,
+     "value": 31.3,
+     "report": 2025,
+     "table": "A-17",
+     "page": 70
+    }
+   ]
+  },
+  {
+   "topic": "periodicals_type",
+   "dimension": "Type",
+   "segment": "Magazines",
+   "points": [
+    {
+     "year": 2015,
+     "value": 31.0,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    },
+    {
+     "year": 2020,
+     "value": 21.0,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    },
+    {
+     "year": 2025,
+     "value": 13.1,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    }
+   ]
+  },
+  {
+   "topic": "periodicals_type",
+   "dimension": "Type",
+   "segment": "Newspapers",
+   "points": [
+    {
+     "year": 2015,
+     "value": 5.7,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    },
+    {
+     "year": 2020,
+     "value": 6.1,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    },
+    {
+     "year": 2025,
+     "value": 5.7,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    }
+   ]
+  },
+  {
+   "topic": "periodicals_type",
+   "dimension": "Type",
+   "segment": "Other",
+   "points": [
+    {
+     "year": 2015,
+     "value": 3.3,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    },
+    {
+     "year": 2020,
+     "value": 2.4,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    },
+    {
+     "year": 2025,
+     "value": 3.0,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    }
+   ]
+  },
+  {
+   "topic": "periodicals_type",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 40.0,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    },
+    {
+     "year": 2020,
+     "value": 29.6,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    },
+    {
+     "year": 2025,
+     "value": 21.9,
+     "report": 2025,
+     "table": "6.1",
+     "page": 43
+    }
+   ]
+  },
+  {
+   "topic": "periodicals_reach",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 39.0,
+     "report": 2025,
+     "table": "6.2",
+     "page": 44
+    },
+    {
+     "year": 2020,
+     "value": 30.0,
+     "report": 2025,
+     "table": "6.2",
+     "page": 44
+    },
+    {
+     "year": 2025,
+     "value": 25.0,
+     "report": 2025,
+     "table": "6.2",
+     "page": 44
+    }
+   ]
+  },
+  {
+   "topic": "periodicals_intensity",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 101.9,
+     "report": 2025,
+     "table": "6.2",
+     "page": 44
+    },
+    {
+     "year": 2020,
+     "value": 98.4,
+     "report": 2025,
+     "table": "6.2",
+     "page": 44
+    },
+    {
+     "year": 2025,
+     "value": 88.4,
+     "report": 2025,
+     "table": "6.2",
+     "page": 44
+    }
+   ]
+  },
+  {
+   "topic": "packages_total",
+   "dimension": "Direction",
+   "segment": "Received",
+   "points": [
+    {
+     "year": 2015,
+     "value": 29.3,
+     "report": 2025,
+     "table": "7.1",
+     "page": 48
+    },
+    {
+     "year": 2020,
+     "value": 43.9,
+     "report": 2025,
+     "table": "7.1",
+     "page": 48
+    },
+    {
+     "year": 2025,
+     "value": 39.8,
+     "report": 2025,
+     "table": "7.1",
+     "page": 48
+    }
+   ]
+  },
+  {
+   "topic": "packages_total",
+   "dimension": "Direction",
+   "segment": "Sent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 4.6,
+     "report": 2025,
+     "table": "7.1",
+     "page": 48
+    },
+    {
+     "year": 2020,
+     "value": 5.2,
+     "report": 2025,
+     "table": "7.1",
+     "page": 48
+    },
+    {
+     "year": 2025,
+     "value": 4.8,
+     "report": 2025,
+     "table": "7.1",
+     "page": 48
+    }
+   ]
+  },
+  {
+   "topic": "packages_total",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 32.1,
+     "report": 2025,
+     "table": "7.1",
+     "page": 48
+    },
+    {
+     "year": 2020,
+     "value": 47.0,
+     "report": 2025,
+     "table": "7.1",
+     "page": 48
+    },
+    {
+     "year": 2025,
+     "value": 41.5,
+     "report": 2025,
+     "table": "7.1",
+     "page": 48
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 29.3,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 43.9,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 39.8,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 30.7,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 48.3,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 34.9,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 28.4,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 44.0,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 43.5,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 27.9,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 38.3,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 41.6,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2015,
+     "value": 19.7,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 31.2,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 29.8,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 33.6,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 44.8,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 37.0,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 46.5,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 57.5,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 48.1,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 47.1,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 55.4,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 55.8,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2015,
+     "value": 24.4,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 43.4,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 29.3,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 21.9,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 37.1,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 38.8,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 29.2,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 42.7,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 41.0,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 36.5,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 49.0,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 41.4,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2015,
+     "value": 33.9,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 47.0,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 45.3,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 21.6,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 36.9,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 29.3,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 33.4,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 41.3,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 32.8,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 27.4,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 46.9,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 46.0,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_received",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 19.7,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2020,
+     "value": 43.4,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    },
+    {
+     "year": 2025,
+     "value": 50.0,
+     "report": 2025,
+     "table": "A-18",
+     "page": 71
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2015,
+     "value": 4.6,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 5.2,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 4.8,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2015,
+     "value": 6.9,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 5.2,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 5.3,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2015,
+     "value": 3.3,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 6.2,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 5.4,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 3.1,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 4.0,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 3.4,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2015,
+     "value": 3.8,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 4.1,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 3.0,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 5.8,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 5.3,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 4.5,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2015,
+     "value": 4.5,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 6.1,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 5.5,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2015,
+     "value": 4.0,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 6.0,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 8.1,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2015,
+     "value": 3.2,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 6.2,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 7.9,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 2.6,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 4.7,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 3.7,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 5.1,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 5.0,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 5.1,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2015,
+     "value": 6.3,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 5.6,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 5.0,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2015,
+     "value": 4.6,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 5.3,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 5.5,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2015,
+     "value": 4.8,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 5.0,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 3.3,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 4.1,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 5.7,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 4.3,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 4.4,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 4.4,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 4.9,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "packages_sent",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2015,
+     "value": 8.0,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2020,
+     "value": 5.9,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    },
+    {
+     "year": 2025,
+     "value": 5.9,
+     "report": 2025,
+     "table": "A-19",
+     "page": 72
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Age",
+   "segment": "Under 35",
+   "points": [
+    {
+     "year": 2025,
+     "value": 346.9,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Age",
+   "segment": "Under 35",
+   "points": [
+    {
+     "year": 2025,
+     "value": 18.8,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Age",
+   "segment": "35 to 44",
+   "points": [
+    {
+     "year": 2025,
+     "value": 464.7,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Age",
+   "segment": "35 to 44",
+   "points": [
+    {
+     "year": 2025,
+     "value": 33.5,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Age",
+   "segment": "45 to 54",
+   "points": [
+    {
+     "year": 2025,
+     "value": 628.6,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Age",
+   "segment": "45 to 54",
+   "points": [
+    {
+     "year": 2025,
+     "value": 33.1,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Age",
+   "segment": "55 to 64",
+   "points": [
+    {
+     "year": 2025,
+     "value": 684.0,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Age",
+   "segment": "55 to 64",
+   "points": [
+    {
+     "year": 2025,
+     "value": 43.4,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Age",
+   "segment": "65 to 74",
+   "points": [
+    {
+     "year": 2025,
+     "value": 824.1,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Age",
+   "segment": "65 to 74",
+   "points": [
+    {
+     "year": 2025,
+     "value": 57.0,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Age",
+   "segment": "75 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 874.4,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Age",
+   "segment": "75 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 53.9,
+     "report": 2025,
+     "table": "2.2",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Income",
+   "segment": "Under $50K",
+   "points": [
+    {
+     "year": 2025,
+     "value": 491.2,
+     "report": 2025,
+     "table": "2.3",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Income",
+   "segment": "Under $50K",
+   "points": [
+    {
+     "year": 2025,
+     "value": 32.3,
+     "report": 2025,
+     "table": "2.3",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Income",
+   "segment": "$50K to $100K",
+   "points": [
+    {
+     "year": 2025,
+     "value": 599.7,
+     "report": 2025,
+     "table": "2.3",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Income",
+   "segment": "$50K to $100K",
+   "points": [
+    {
+     "year": 2025,
+     "value": 39.6,
+     "report": 2025,
+     "table": "2.3",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Income",
+   "segment": "$100K to $150K",
+   "points": [
+    {
+     "year": 2025,
+     "value": 697.6,
+     "report": 2025,
+     "table": "2.3",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Income",
+   "segment": "$100K to $150K",
+   "points": [
+    {
+     "year": 2025,
+     "value": 40.1,
+     "report": 2025,
+     "table": "2.3",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Income",
+   "segment": "$150K and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 818.7,
+     "report": 2025,
+     "table": "2.3",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Income",
+   "segment": "$150K and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 50.2,
+     "report": 2025,
+     "table": "2.3",
+     "page": 16
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Education",
+   "segment": "Up to 12th Grade (No Diploma)",
+   "points": [
+    {
+     "year": 2025,
+     "value": 490.9,
+     "report": 2025,
+     "table": "2.4",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Education",
+   "segment": "Up to 12th Grade (No Diploma)",
+   "points": [
+    {
+     "year": 2025,
+     "value": 25.9,
+     "report": 2025,
+     "table": "2.4",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Education",
+   "segment": "High School Graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 573.7,
+     "report": 2025,
+     "table": "2.4",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Education",
+   "segment": "High School Graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 38.5,
+     "report": 2025,
+     "table": "2.4",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Education",
+   "segment": "Some College or Technical School Graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 607.5,
+     "report": 2025,
+     "table": "2.4",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Education",
+   "segment": "Some College or Technical School Graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 40.9,
+     "report": 2025,
+     "table": "2.4",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Education",
+   "segment": "College Graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 673.1,
+     "report": 2025,
+     "table": "2.4",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Education",
+   "segment": "College Graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 39.3,
+     "report": 2025,
+     "table": "2.4",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Homeownership",
+   "segment": "Homeowner",
+   "points": [
+    {
+     "year": 2025,
+     "value": 743.7,
+     "report": 2025,
+     "table": "2.5",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Homeownership",
+   "segment": "Homeowner",
+   "points": [
+    {
+     "year": 2025,
+     "value": 43.7,
+     "report": 2025,
+     "table": "2.5",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Homeownership",
+   "segment": "Renter",
+   "points": [
+    {
+     "year": 2025,
+     "value": 377.1,
+     "report": 2025,
+     "table": "2.5",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Homeownership",
+   "segment": "Renter",
+   "points": [
+    {
+     "year": 2025,
+     "value": 29.0,
+     "report": 2025,
+     "table": "2.5",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 623.8,
+     "report": 2025,
+     "table": "2.6",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 36.6,
+     "report": 2025,
+     "table": "2.6",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 621.3,
+     "report": 2025,
+     "table": "2.6",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 38.8,
+     "report": 2025,
+     "table": "2.6",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "received_detail",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 589.1,
+     "report": 2025,
+     "table": "2.6",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "sent_detail",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 46.3,
+     "report": 2025,
+     "table": "2.6",
+     "page": 17
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2025,
+     "value": 51.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2025,
+     "value": 48.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2025,
+     "value": 12.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2025,
+     "value": 50.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2025,
+     "value": 13.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 54.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 16.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2025,
+     "value": 58.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2025,
+     "value": 16.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2025,
+     "value": 54.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2025,
+     "value": 46.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2025,
+     "value": 12.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 42.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 12.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2025,
+     "value": 54.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2025,
+     "value": 24.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 59.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 15.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 52.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 46.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 12.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2025,
+     "value": 50.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2025,
+     "value": 53.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 50.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 13.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 51.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 13.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_read_demo",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 53.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_respond_demo",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 15.0,
+     "report": 2025,
+     "table": "A-16",
+     "page": 69
+    }
+   ]
+  },
+  {
+   "topic": "ad_response_by_type",
+   "dimension": "Ad type",
+   "segment": "First-Class",
+   "points": [
+    {
+     "year": 2025,
+     "value": 15.0,
+     "report": 2025,
+     "table": "5.4",
+     "page": 40
+    }
+   ]
+  },
+  {
+   "topic": "ad_response_by_type",
+   "dimension": "Ad type",
+   "segment": "Commercial Marketing",
+   "points": [
+    {
+     "year": 2025,
+     "value": 12.0,
+     "report": 2025,
+     "table": "5.4",
+     "page": 40
+    }
+   ]
+  },
+  {
+   "topic": "ad_response_by_type",
+   "dimension": "Ad type",
+   "segment": "Nonprofit Marketing",
+   "points": [
+    {
+     "year": 2025,
+     "value": 19.0,
+     "report": 2025,
+     "table": "5.4",
+     "page": 40
+    }
+   ]
+  },
+  {
+   "topic": "ad_response_by_type",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2025,
+     "value": 14.0,
+     "report": 2025,
+     "table": "5.4",
+     "page": 40
+    }
+   ]
+  },
+  {
+   "topic": "ad_relationship_read",
+   "dimension": "Past relationship",
+   "segment": "Existing Customers",
+   "points": [
+    {
+     "year": 2025,
+     "value": 64.0,
+     "report": 2025,
+     "table": "5.5",
+     "page": 41
+    }
+   ]
+  },
+  {
+   "topic": "ad_relationship_respond",
+   "dimension": "Past relationship",
+   "segment": "Existing Customers",
+   "points": [
+    {
+     "year": 2025,
+     "value": 25.0,
+     "report": 2025,
+     "table": "5.5",
+     "page": 41
+    }
+   ]
+  },
+  {
+   "topic": "ad_relationship_read",
+   "dimension": "Past relationship",
+   "segment": "Prospects",
+   "points": [
+    {
+     "year": 2025,
+     "value": 36.0,
+     "report": 2025,
+     "table": "5.5",
+     "page": 41
+    }
+   ]
+  },
+  {
+   "topic": "ad_relationship_respond",
+   "dimension": "Past relationship",
+   "segment": "Prospects",
+   "points": [
+    {
+     "year": 2025,
+     "value": 3.0,
+     "report": 2025,
+     "table": "5.5",
+     "page": 41
+    }
+   ]
+  },
+  {
+   "topic": "ad_relationship_read",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2025,
+     "value": 50.0,
+     "report": 2025,
+     "table": "5.5",
+     "page": 41
+    }
+   ]
+  },
+  {
+   "topic": "ad_relationship_respond",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2025,
+     "value": 13.0,
+     "report": 2025,
+     "table": "5.5",
+     "page": 41
+    }
+   ]
+  },
+  {
+   "topic": "reasons_bills_mail",
+   "dimension": "Reason",
+   "segment": "Record keeping",
+   "points": [
+    {
+     "year": 2025,
+     "value": 56.0,
+     "report": 2025,
+     "table": "4.5",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "topic": "reasons_bills_mail",
+   "dimension": "Reason",
+   "segment": "I have always done it this way",
+   "points": [
+    {
+     "year": 2025,
+     "value": 31.0,
+     "report": 2025,
+     "table": "4.5",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "topic": "reasons_bills_mail",
+   "dimension": "Reason",
+   "segment": "Convenience (ease of use/saves time)",
+   "points": [
+    {
+     "year": 2025,
+     "value": 27.0,
+     "report": 2025,
+     "table": "4.5",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "topic": "reasons_bills_mail",
+   "dimension": "Reason",
+   "segment": "I have not set things up to receive bills or statements electronically",
+   "points": [
+    {
+     "year": 2025,
+     "value": 24.0,
+     "report": 2025,
+     "table": "4.5",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "topic": "reasons_bills_mail",
+   "dimension": "Reason",
+   "segment": "Company only sends bills by mail (or does not send them electronically)",
+   "points": [
+    {
+     "year": 2025,
+     "value": 22.0,
+     "report": 2025,
+     "table": "4.5",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "topic": "reasons_bills_mail",
+   "dimension": "Reason",
+   "segment": "Security/Privacy",
+   "points": [
+    {
+     "year": 2025,
+     "value": 21.0,
+     "report": 2025,
+     "table": "4.5",
+     "page": 31
+    }
+   ]
+  },
+  {
+   "topic": "reasons_pay_mail",
+   "dimension": "Reason",
+   "segment": "Record keeping",
+   "points": [
+    {
+     "year": 2025,
+     "value": 42.0,
+     "report": 2025,
+     "table": "4.7",
+     "page": 32
+    }
+   ]
+  },
+  {
+   "topic": "reasons_pay_mail",
+   "dimension": "Reason",
+   "segment": "I have always done it this way",
+   "points": [
+    {
+     "year": 2025,
+     "value": 29.0,
+     "report": 2025,
+     "table": "4.7",
+     "page": 32
+    }
+   ]
+  },
+  {
+   "topic": "reasons_pay_mail",
+   "dimension": "Reason",
+   "segment": "Convenience (ease of use/saves time)",
+   "points": [
+    {
+     "year": 2025,
+     "value": 29.0,
+     "report": 2025,
+     "table": "4.7",
+     "page": 32
+    }
+   ]
+  },
+  {
+   "topic": "reasons_pay_mail",
+   "dimension": "Reason",
+   "segment": "Security/Privacy",
+   "points": [
+    {
+     "year": 2025,
+     "value": 29.0,
+     "report": 2025,
+     "table": "4.7",
+     "page": 32
+    }
+   ]
+  },
+  {
+   "topic": "reasons_pay_mail",
+   "dimension": "Reason",
+   "segment": "Biller prefers/requires payment by mail",
+   "points": [
+    {
+     "year": 2025,
+     "value": 25.0,
+     "report": 2025,
+     "table": "4.7",
+     "page": 32
+    }
+   ]
+  },
+  {
+   "topic": "reasons_pay_mail",
+   "dimension": "Reason",
+   "segment": "I have not set things up to pay electronically",
+   "points": [
+    {
+     "year": 2025,
+     "value": 18.0,
+     "report": 2025,
+     "table": "4.7",
+     "page": 32
+    }
+   ]
+  },
+  {
+   "topic": "reasons_usps_package",
+   "dimension": "Reason",
+   "segment": "Convenient location",
+   "points": [
+    {
+     "year": 2025,
+     "value": 49.0,
+     "report": 2025,
+     "table": "7.3",
+     "page": 53
+    }
+   ]
+  },
+  {
+   "topic": "reasons_usps_package",
+   "dimension": "Reason",
+   "segment": "Price",
+   "points": [
+    {
+     "year": 2025,
+     "value": 34.0,
+     "report": 2025,
+     "table": "7.3",
+     "page": 53
+    }
+   ]
+  },
+  {
+   "topic": "reasons_usps_package",
+   "dimension": "Reason",
+   "segment": "Quality of service",
+   "points": [
+    {
+     "year": 2025,
+     "value": 13.0,
+     "report": 2025,
+     "table": "7.3",
+     "page": 53
+    }
+   ]
+  },
+  {
+   "topic": "reasons_usps_package",
+   "dimension": "Reason",
+   "segment": "No other option available",
+   "points": [
+    {
+     "year": 2025,
+     "value": 3.0,
+     "report": 2025,
+     "table": "7.3",
+     "page": 53
+    }
+   ]
+  },
+  {
+   "topic": "reasons_usps_package",
+   "dimension": "Reason",
+   "segment": "Don't know/rather not say",
+   "points": [
+    {
+     "year": 2025,
+     "value": 2.0,
+     "report": 2025,
+     "table": "7.3",
+     "page": 53
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2025,
+     "value": 72.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.2,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2025,
+     "value": 71.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.2,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2025,
+     "value": 72.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.4,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 72.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.2,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2025,
+     "value": 70.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.2,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2025,
+     "value": 72.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.3,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2025,
+     "value": 75.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.4,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 72.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.2,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2025,
+     "value": 88.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.6,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 69.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.3,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 72.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.2,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 73.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.3,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2025,
+     "value": 72.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.2,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2025,
+     "value": 72.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.3,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 70.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.2,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 73.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.3,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received_top",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 74.0,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_received",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.4,
+     "report": 2025,
+     "table": "A-20",
+     "page": 73
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Overall",
+   "segment": "All households",
+   "points": [
+    {
+     "year": 2025,
+     "value": 8.9,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Age",
+   "segment": "Under 45",
+   "points": [
+    {
+     "year": 2025,
+     "value": 8.9,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Age",
+   "segment": "45-64",
+   "points": [
+    {
+     "year": 2025,
+     "value": 8.9,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Age",
+   "segment": "65 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.1,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Income",
+   "segment": "Less than $50,000",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.0,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Income",
+   "segment": "$50,000-$99,999",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.0,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Income",
+   "segment": "$100,000-$149,999",
+   "points": [
+    {
+     "year": 2025,
+     "value": 8.9,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Income",
+   "segment": "$150,000 and Over",
+   "points": [
+    {
+     "year": 2025,
+     "value": 8.8,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Education",
+   "segment": "Less than high school",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.1,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Education",
+   "segment": "High school graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.1,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Education",
+   "segment": "Some college or technical school graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.0,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Education",
+   "segment": "College graduate",
+   "points": [
+    {
+     "year": 2025,
+     "value": 8.9,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Homeownership",
+   "segment": "Own",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.0,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Homeownership",
+   "segment": "Rent",
+   "points": [
+    {
+     "year": 2025,
+     "value": 8.9,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Metro area",
+   "segment": "Large MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 8.9,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Metro area",
+   "segment": "Other MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.0,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  },
+  {
+   "topic": "pkg_sat_sent",
+   "dimension": "Metro area",
+   "segment": "Non-MSA",
+   "points": [
+    {
+     "year": 2025,
+     "value": 9.1,
+     "report": 2025,
+     "table": "A-21",
+     "page": 74
+    }
+   ]
+  }
+ ],
+ "notes": [
+  "Total household mail / All households / 2020: Table E.2 gives 837, Table 1.3 (FY2025) gives 839; kept 837"
+ ],
+ "warnings": []
+}
